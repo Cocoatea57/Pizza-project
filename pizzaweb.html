@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class="fixed w-full">
+        <div class="flex justify-between  bg-red-500 h-[3rem] p-3 fixed w-full ">
+            <h1 class="font-bold text-white sm:text-xs md:text-sm p-1 ">FrankiesPizza🍕</h1>
+            <div class="relative group">
+                <button class="font-semibold text-white hover:bg-white hover:text-black rounded-lg p-1">Menu</button>
+                <div class="group rounded-md hidden group-hover:block absolute bg-red-500 py-1">
+                    <a href="pizzaweb.html" class="text-white hover:bg-white hover:text-black p-1 rounded-md">Home</a>
+                    <a href="order.html" class="text-white hover:bg-white hover:text-black p-1 rounded-md">Order</a>
+                    <a href="contact.html"  class="text-white hover:bg-white hover:text-black p-1 rounded-md">Contact</a>
+                    <a href="aboutus.html" class="text-white hover:bg-white hover:text-black p-1 rounded-md">AboutUs</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div>
+            <div class="grid place-items-center  bg-[url('pizzapic1.jpg')] h-[27rem] bg-cover object-cover">
+                <div class="grid text-center  sm:h-[2rem] sm:w-[200px] py-5 md:w-[700px] md:h-[10rem] lg:w-[900px] lg:h-[13rem] bg-black bg-opacity-50 rounded-lg items-center ">
+                    <h1 class=" font-mono sm:text-xs md:text-4xl text-white lg:text-5xl font-bold">Delicious Pizza, Freshly Baked</h1>
+                    <p class="text-white sm:text-xs md:text-xl lg:text-2xl font-semibold">Experience the taste of authentic pizza made with love.</p>
+                    
+                    <div>
+                        <button class="p-1 hover:bg-white hover:text-black font-semibold text-white bg-red-500 w-[90px] rounded-md "><a href="order.html">Order Now</a></button>
+                    </div>    
+                </div>
+            </div>
+        </div>
+        <div class="bg-gray-200" id="info">
+            <div class="grid lg:grid-cols-2 p-9 sm:grid-cols-1">
+                <div class="lg:w-[600px] lg:h-[300px] rounded-xl ">
+                    <h1 class="my-5 text-4xl font-bold">About Us</h1>
+                    <p>Welcome to our pizza paradise! We are passionate
+                        about delivering the freshest, tastiest pizzas made with
+                        love. Our mission is to bring joy to your taste buds with
+                        every bite. Experience the difference with our hand-
+                        crafted recipes and finest ingredients.
+                    </p>
+                    <button class="bg-red-500 hover:bg-white hover:text-black text-white rounded-lg p-2 my-3 text-sm"><a href="aboutus.html">Learn more</a></button>
+                </div>
+                <div>
+                    <img src="pizzapic1.jpg" alt="pizza pic" class="w-[600px] h-[300px] rounded-xl">
+                </div>
+            </div>
+            <h1 class="text-center text-2xl font-bold">Types of Pizza</h1>
+            <div class="m-2 sm:w-full grid sm:grid-cols-2 lg:grid-cols-4 md:grid-cols-2 gap-4 ">
+                <div class="bg-white rounded-lg lg:w-[250px] lg:h-[300px] shadow-[4px_4px_4px_0px_gray] m-2">
+                    <img src="pizzapic2.jpg" alt="pizzapic" class="lg:w-[250px] lg:h-[170px] rounded-lg rounded-b-none hover:scale-110 transform transition">
+                    <h1 class="my-2 font-bold px-2 font-bold">Margherita Pizza</h1>
+                    <p class="px-2 text-md ">
+                        A classic pizza with fresh
+tomatoes, mozzarella, basil,
+and a drizzle of olive oil.                       
+                    </p>
+                </div>
+                <div class="bg-white rounded-lg lg:w-[250px] lg:h-[300px] shadow-[4px_4px_4px_0px_gray] m-2">
+                    <img src="pizzapic5.jpg" alt="pizzapic" class="lg:w-[250px] lg:h-[170px] rounded-lg rounded-b-none hover:scale-110 transform transition">
+                    <h1 class="my-2 font-bold px-2 font-bold">Pepperoni Pizza</h1>
+                    <p class="px-2 text-md ">
+                        A crowd favorite topped
+                        with spicy pepperoni and
+                        melting mozzarella cheese.                       
+                    </p>
+                </div>
+                <div class="bg-white rounded-lg lg:w-[250px] lg:h-[300px] shadow-[4px_4px_4px_0px_gray] m-2">
+                    <img src="pizzapic4.jpg" alt="pizzapic" class="lg:w-[250px] lg:h-[170px] rounded-lg rounded-b-none hover:scale-110 transform transition">
+                    <h1 class="my-2 font-bold px-2 font-bold">BBQ Chicken Pizza</h1>
+                    <p class="px-2 text-md ">
+                        Savory barbecue sauce,
+                        tender chicken pieces, red
+                        onions, and fresh cilantro.
+                    </p>
+                </div>
+                <div class="bg-white rounded-lg lg:w-[250px] lg:h-[300px] shadow-[4px_4px_4px_0px_gray] m-2 ">
+                    <img src="pizzapic3.jpg" alt="pizzapic" class="lg:w-[250px] lg:h-[170px] rounded-lg rounded-b-none hover:scale-110 transform transition">
+                    <h1 class="my-2 font-bold px-2 font-bold">Veggie Pizza</h1>
+                    <p class="px-2 text-md ">
+                        Loaded with fresh veggies
+                        like bell peppers, onions,
+                        olives, and mushrooms.
+                    </p>
+                </div> 
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class=" w-full lg:h-[6rem] bg-black text-center p-5">
+            <div>
+                <p class="text-white text-sm m-2 ">© 2025 Your Website. All Rights Reserved.</p>
+                <div class="text-white flex justify-center gap-7 my-2">
+                    <p class="text-md ">Privacy Policy</p>
+                    <p class="text-md ">Terms of Service</p>
+                    <p class="text-md ">About Us</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

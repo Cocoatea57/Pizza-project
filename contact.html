@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[url('pizzapic3.jpg')] bg-cover">
+    <header>
+        <!-- <nav class="fixed w-full"> -->
+        <div class="flex justify-between  bg-red-500 h-[3rem] p-3 ">
+            <h1 class="font-bold text-white sm:text-xs md:text-sm p-1 ">FrankiesPizza🍕</h1>
+            <div class="relative group">
+                <button class="font-semibold text-white hover:bg-white hover:text-black rounded-lg p-1">Menu</button>
+                <div class="group rounded-md hidden group-hover:block absolute bg-red-500 py-1">
+                    <a href="pizzaweb.html" class="text-white hover:bg-white hover:text-black p-1 rounded-md">Home</a>
+                    <a href="order.html" class="text-white hover:bg-white hover:text-black p-1 rounded-md">Order</a>
+                    <a href="contact.html" class="text-white hover:bg-white hover:text-black p-1 rounded-md">Contact</a>
+                    <a href="aboutus.html" class="text-white hover:bg-white hover:text-black p-1 rounded-md">AboutUs</a>
+                </div>
+            </div>
+        </div>
+        </nav>
+    </header>
+    <main class="flex items-center justify-center min-h-screen">
+        <form action="contact.html" class="text-center bg-[url('pizzapic2.jpg')] w-[80%]">
+            <div class="bg-black bg-opacity-50">
+                <div class="p-2 text-white ">
+                    <h1 class="text-xl p-2 font-semibold">Send A Message Here</h1>
+                    <p class="text-sm">We'd love to here from you wheather you're reporting and issue concerning order</p>
+                </div>
+                <div>
+                    <input type="text" name="fullname" placeholder="your fullname" required
+                        class="p-2 m-5 w-[70%] placeholder:font-semibold rounded-md">
+                </div>
+                <div>
+                    <input type="tel" placeholder="Tel number" required class="w-[50%] p-2 rounded-lg">
+                </div>
+                <div>
+                    <input type="textarea" placeholder="Message" class="p-3 m-5 w-[80%] h-[10rem] rounded-lg border-lg">
+                </div>
+                <div>
+                    <button class="bg-red-500 rounded-lg p-1.5 mb-4 hover:bg-white font-semibold hover:content-[Send]">Send Message</button>
+                </div>
+            </div>
+        </form>
+
+    </main>
+
+
+
+</body>
+
+</html>

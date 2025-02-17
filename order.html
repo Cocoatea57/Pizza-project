@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-200">
+    <nav class="">
+        <div class="flex justify-between  bg-red-500 h-[3rem] p-3 ">
+            <h1 class="font-bold text-white sm:text-xs md:text-sm p-1 ">FrankiesPizza🍕</h1>
+            <div class="relative group">
+                <button class="font-semibold text-white hover:bg-white hover:text-black rounded-lg p-1">Menu</button>
+                <div class="group rounded-md hidden group-hover:block absolute bg-red-500 py-1">
+                    <a href="pizzaweb.html" class="text-white hover:bg-white hover:text-black p-1 rounded-md">Home</a>
+                    <a href="order.html" class="text-white hover:bg-white hover:text-black p-1 rounded-md">Order</a>
+                    <a href="contact.html" class="text-white hover:bg-white hover:text-black p-1 rounded-md">Contact</a>
+                    <a href="aboutus.html" class="text-white hover:bg-white hover:text-black p-1 rounded-md">AboutUs</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="flex flex-row items-center justify-center">
+        <marquee behavior="alternate" width="50%" direction="Right" class=" font-semibold pl-6 pr-6">
+           <span class="font-bold"><em>WELCOME</em></span> to FrankiesPizza🍕, Place Your Order Here
+        </marquee>
+    </div>
+
+    <div class="m-2 w-fixed  text-center">
+        <input type="text" name="search" id="searchbar" placeholder="search delicacy"
+            class="lg:h-[2rem] lg:w-[20rem] rounded-md bg-white  pt-2 pr-4 pb-2 pl-4 border-[1px_3px_4px_4px_gray_300]">
+        <button class="bg-red-500 rounded-lg p-1 hover:bg-blue-300 hover:text-black">search</button>
+    </div>
+
+    <main>
+        <div class="m-2 pl-4 grid md:grid-cols-2 lg:grid-cols-4  gap-5 justify-around ">
+            <div class="bg-white rounded-lg lg:w-[250px] lg:h-[300px] shadow-[4px_4px_4px_0px_gray] m-2">
+                <img src="pizzapic2.jpg" alt="pizzapic"
+                    class="lg:w-[250px] lg:h-[170px] rounded-lg rounded-b-none hover:scale-110 transform transition">
+                <h1 class="my-2 font-bold px-2 font-bold">Margherita Pizza</h1>
+                <p class="px-2 text-md ">
+                    A classic pizza with fresh
+                    tomatoes, mozzarella, basil,
+                    and a drizzle of olive oil.
+                    <span><button
+                            class="bg-red-500 rounded-lg lg:px-2  lg:text-md hover:bg-black hover:text-white shadow[1px_3px_4px_4px_gray]">Buy
+                            Me</button></span>
+                </p>
+            </div>
+            <div class="bg-white rounded-lg lg:w-[250px] lg:h-[300px] shadow-[4px_4px_4px_0px_gray] m-2">
+                <img src="pizzapic5.jpg" alt="pizzapic"
+                    class="lg:w-[250px] lg:h-[170px] rounded-lg rounded-b-none hover:scale-110 transform transition">
+                <h1 class="my-2 font-bold px-2 font-bold">Pepperoni Pizza</h1>
+                <p class="px-2 text-md ">
+                    A crowd favorite topped
+                    with spicy pepperoni and
+                    melting mozzarella cheese.
+                    <span><button
+                            class="bg-red-500 rounded-lg lg:px-1  lg:text-md hover:bg-black hover:text-white shadow[1px_3px_4px_4px_gray]">Buy
+                            Me</button></span>
+                </p>
+            </div>
+            <div class="bg-white rounded-lg lg:w-[250px] lg:h-[300px] shadow-[4px_4px_4px_0px_gray] m-2">
+                <img src="pizzapic4.jpg" alt="pizzapic"
+                    class="lg:w-[250px] lg:h-[170px] rounded-lg rounded-b-none hover:scale-110 transform transition">
+                <h1 class="my-2 font-bold px-2 font-bold">BBQ Chicken Pizza</h1>
+                <p class="px-2 lg:text-md ">
+                    Savory barbecue sauce,
+                    tender chicken pieces, red
+                    onions, and fresh cilantro.
+                    <span><button
+                            class="bg-red-500 rounded-lg lg:px-2  lg:text-md hover:bg-black hover:text-white shadow[1px_3px_4px_4px_gray]">Buy
+                            Me</button></span>
+                </p>
+            </div>
+            <div class="bg-white rounded-lg lg:w-[250px] lg:h-[300px] shadow-[4px_4px_4px_0px_gray] m-2 ">
+                <img src="pizzapic3.jpg" alt="pizzapic"
+                    class="lg:w-[250px] lg:h-[170px] rounded-lg rounded-b-none hover:scale-110 transform transition">
+                <h1 class="my-2 font-bold px-2 font-bold">Veggie Pizza</h1>
+                <p class="px-2 lg:text-md ">
+                    Loaded with fresh veggies
+                    like bell peppers, onions,
+                    olives, and mushrooms.
+                    <span><button
+                            class="bg-red-500 rounded-lg lg:px-2  lg:text-md hover:bg-black hover:text-white shadow[1px_3px_4px_4px_gray]">Buy
+                            Me</button></span>
+                </p>
+            </div>
+            <div class="bg-white rounded-lg lg:w-[250px] lg:h-[300px] shadow-[4px_4px_4px_0px_gray] m-2">
+                <img src="Vegetarian.jpg" alt="pizzapic"
+                    class="lg:w-[250px] lg:h-[170px] rounded-lg rounded-b-none hover:scale-110 transform transition">
+                <h1 class="my-2 font-bold px-2 font-bold">Vegetarian Pizza</h1>
+                <p class="px-2 lg:text-md ">
+                    A classic pizza with fresh
+                    tomatoes, mozzarella, basil,
+                    and a drizzle of olive oil.
+                    <span><button
+                            class="bg-red-500 rounded-lg lg:px-2  lg:text-md hover:bg-black hover:text-white shadow[1px_3px_4px_4px_gray]">Buy
+                            Me</button></span>
+                </p>
+            </div>
+            <div class="bg-white rounded-lg lg:w-[250px] lg:h-[300px] shadow-[4px_4px_4px_0px_gray] m-2">
+                <img src="tandoori-pizza.webp" alt="pizzapic"
+                    class="lg:w-[250px] lg:h-[170px] rounded-lg rounded-b-none hover:scale-110 transform transition">
+                <h1 class="my-2 font-bold px-2 font-bold">Tandoori Pizza</h1>
+                <p class="px-2 lg:text-md ">
+                    A crowd favorite topped
+                    with spicy pepperoni and
+                    melting mozzarella cheese.
+                    <span><button
+                            class="bg-red-500 rounded-lg lg:px-2  lg:text-md hover:bg-black hover:text-white shadow[1px_3px_4px_4px_gray]">Buy
+                            Me</button></span>
+                </p>
+            </div>
+            <div class="bg-white rounded-lg lg:w-[250px] lg:h-[300px] shadow-[4px_4px_4px_0px_gray] m-2">
+                <img src="hampizza.jpg" alt="pizzapic"
+                    class="lg:w-[250px] lg:h-[170px] rounded-lg rounded-b-none hover:scale-110 transform transition">
+                <h1 class="my-2 font-bold px-2 font-bold">Ham Pizza</h1>
+                <p class="px-2 lg:text-md ">
+                    Savory barbecue sauce,
+                    tender chicken pieces, red
+                    onions, and fresh cilantro.
+                    <span><button
+                            class="bg-red-500 rounded-lg lg:px-2  lg:text-md hover:bg-black hover:text-white shadow[1px_3px_4px_4px_gray]">Buy
+                            Me</button></span>
+                </p>
+            </div>
+            <div class="bg-white rounded-lg lg:w-[250px] lg:h-[300px] shadow-[4px_4px_4px_0px_gray] m-2 ">
+                <img src="pizza10.jpg" alt="pizzapic"
+                    class="lg:w-[250px] lg:h-[170px] rounded-lg rounded-b-none hover:scale-110 transform transition">
+                <h1 class="my-2 font-bold px-2 font-bold">Veggie Pizza</h1>
+                <p class="px-2 lg:text-md ">
+                    Loaded with fresh veggies
+                    like bell peppers, onions,
+                    olives, and mushrooms.
+                    <span><button
+                            class="bg-red-500 rounded-lg lg:px-2  lg:text-md hover:bg-black hover:text-white shadow[1px_3px_4px_4px_gray]">Buy
+                            Me</button></span>
+                </p>
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <div class=" w-full lg:h-[6rem] bg-black text-center p-5">
+            <div>
+                <p class="text-white text-sm m-2 ">© 2025 Your Website. All Rights Reserved.</p>
+                <div class="text-white flex justify-center gap-7 my-2">
+                    <p class="text-md ">Privacy Policy</p>
+                    <p class="text-md ">Terms of Service</p>
+                    <p class="text-md ">About Us</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
